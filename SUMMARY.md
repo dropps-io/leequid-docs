@@ -1,0 +1,50 @@
+# Table of contents
+
+## Navigating LEEQUID
+
+***
+
+* [Introduction](README.md)
+* [Staking](staking/README.md)
+  * [Staking through the staking pool](staking/staking-through-the-staking-pool.md)
+  * [Matching stake to unstake requests](staking/matching-stake-to-unstake-requests.md)
+  * [Potential wait times while staking](staking/potential-wait-times-while-staking.md)
+  * [Deposited LYX lifecycle](staking/deposited-lyx-lifecycle.md)
+* [Collecting rewards](collecting-rewards/README.md)
+  * [Reward calculation in Proof of Stake](collecting-rewards/reward-calculation-in-proof-of-stake.md)
+  * [Reward distribution in the LEEQUID protocol](collecting-rewards/reward-distribution-in-the-leequid-protocol.md)
+  * [Withdrawing rewards](collecting-rewards/withdrawing-rewards.md)
+* [Exiting the protocol](exiting-the-protocol/README.md)
+  * [Swapping sLYX for LYX](exiting-the-protocol/swapping-slyx-for-lyx.md)
+  * [Unstaking through the staking pool](exiting-the-protocol/unstaking-through-the-staking-pool.md)
+  * [Matching unstake to stake requests](exiting-the-protocol/matching-unstake-to-stake-requests.md)
+  * [Potential wait times while unstaking](exiting-the-protocol/potential-wait-times-while-unstaking.md)
+* [Claiming](claiming/README.md)
+  * [Claim queued stake](claiming/claim-queued-stake.md)
+  * [Claim unstaked LYX](claiming/claim-unstaked-lyx.md)
+  * [Claim rewards](claiming/claim-rewards.md)
+* [Swapping](swapping/README.md)
+  * [LYX for sLYX: An instant alternative to staking](swapping/lyx-for-slyx-an-instant-alternative-to-staking.md)
+  * [sLYX for LYX: an instant alternative to exiting](swapping/slyx-for-lyx-an-instant-alternative-to-exiting.md)
+  * [Providing liquidty](swapping/providing-liquidty.md)
+  * [Providing Liquidity: a practical example](swapping/providing-liquidity-a-practical-example.md)
+
+## LEEQUID in depth
+
+* [Protocol security and risks](leequid-in-depth/protocol-security-and-risks/README.md)
+  * [Validator key management](leequid-in-depth/protocol-security-and-risks/validator-key-management.md)
+  * [Smart contract code correctness](leequid-in-depth/protocol-security-and-risks/smart-contract-code-correctness.md)
+  * [Slashing and unexpected validator behaviour](leequid-in-depth/protocol-security-and-risks/slashing-and-unexpected-validator-behaviour.md)
+  * [sLYX token: economic balance](leequid-in-depth/protocol-security-and-risks/slyx-token-economic-balance.md)
+  * [Oracle correctness](leequid-in-depth/protocol-security-and-risks/oracle-correctness.md)
+* [Smart contracts](leequid-in-depth/smart-contracts/README.md)
+  * [Oracles](leequid-in-depth/smart-contracts/oracles.md)
+  * [Merkle Distributor](leequid-in-depth/smart-contracts/merkle-distributor.md)
+  * [Rewards](leequid-in-depth/smart-contracts/rewards.md)
+  * [Pool](leequid-in-depth/smart-contracts/pool.md)
+  * [StakedLyxToken](leequid-in-depth/smart-contracts/stakedlyxtoken.md)
+  * [FeesEscrow](leequid-in-depth/smart-contracts/feesescrow.md)
+* [The sLYX token](leequid-in-depth/the-slyx-token/README.md)
+  * [How it can be obtained](leequid-in-depth/the-slyx-token/how-it-can-be-obtained.md)
+  * [1:1 ratio with LYX](leequid-in-depth/the-slyx-token/1-1-ratio-with-lyx.md)
+  * [Potential unpeg of sLYX from LYX](leequid-in-depth/the-slyx-token/potential-unpeg-of-slyx-from-lyx.md)

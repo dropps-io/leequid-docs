@@ -1,0 +1,2 @@
+# Collecting rewards
+
