@@ -19,7 +19,7 @@ Oracles interact with the world outside of blockchain and interact with smart co
 
 The Oracles contract forms an integral part of our Liquid Staking application, acting as a bridge between our on-chain protocol and off-chain oracles system.
 
-It primarily serves as a storage for accounts tasked with submitting or updating values based on off-chain data. A minimum threshold of inputs from various oracles is required for data submission.
+It primarily serves as storage for accounts tasked with submitting or updating values based on off-chain data. A minimum threshold of inputs from various oracles is required for data submission.
 
 The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove and check whether an account has a particular role.
 
@@ -39,7 +39,7 @@ The contract communicates with other contracts to manage staking and unstaking. 
 
 **Merkle root submission**
 
-Oracles vote on submitting a new Merkle root. This submission only happens when enough oracles have signed the data, and it's the appropriate time for voting, ensuring transparency and data integrity.º
+Oracles vote on submitting a new Merkle root. This submission only happens when enough oracles have signed the data, and it's the appropriate time for voting, ensuring transparency and data integrity.
 
 **Validator registration**
 

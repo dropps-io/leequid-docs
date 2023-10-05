@@ -2,7 +2,7 @@
 
 #### Overview
 
-The Pool contract handles the transfer of the user's funds into the LEEQUID protocol. Afterwards, it expects a transaction submitted by the Oracles, which are responsible for choosing the node operator and composing all the necessary data to register a new validator. This set of data is called the _deposit data_ and it will be used to register the validator in the Proof of Stake protocol. The _deposit data_ structure must contain:
+The Pool contract handles the transfer of user funds into the LEEQUID protocol. Afterwards, it expects a transaction submitted by the Oracles, which are responsible for choosing the node operator and composing all the necessary data to register a new validator. This set of data is called the _deposit data_ and it will be used to register the validator in the Proof of Stake protocol. The _deposit data_ structure must contain:
 
 ```solidity
 /**

@@ -16,7 +16,7 @@ The _Rewards_ contract tracks the total rewards earned by the staking protocol a
 
 **Checkpointing**
 
-To optimize gas usage and enhance scalability, the contract uses a checkpoint system that keeps track of an account's reward at a particular point in time. The reward per token is stored in each checkpoint, along with the reward value, in a single memory slot. This allows the Rewards contract to calculate the user's reward.
+To optimize gas usage and enhance scalability, the contract uses a checkpoint system that keeps track of an account's rewards at a particular point in time. The reward per token is stored in each checkpoint, along with the reward value, in a single memory slot. This allows the Rewards contract to calculate the user's reward.
 
 ```solidity
 struct Checkpoint {

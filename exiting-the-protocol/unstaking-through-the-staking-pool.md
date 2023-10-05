@@ -2,7 +2,7 @@
 
 ## Overview
 
-If a user wants to unstake at 1:1 ratio between sLYX and LYX, he might choose to go through the staking pool, initiating a request to unstake, which will take between 1 to 2 days to complete. Unstaking implies redeeming sLYX tokens for LYX coins. The sLYX tokens will be burnt and the LYX transferred to the user address.&#x20;
+If a user wants to unstake at a 1:1 ratio between sLYX and LYX, he might choose to go through the staking pool, initiating a request to unstake (which will take between 1 to 2 days to complete). Unstaking implies redeeming sLYX tokens for LYX coins. The sLYX tokens will be burnt and the LYX coins transferred to the user address.&#x20;
 
 The process first starts with the LEEQUID protocol attempting to [match the unstake request to new stake](matching-unstake-to-stake-requests.md) flowing into the protocol. Then, if unsuccessful after a period of 24 hours, it triggers the removal of the necessary amount of validators from the Proof of Stake protocol, which will free the capital employed in them and return it to the LEEQUID protocol.
 
@@ -12,7 +12,7 @@ If after 24 hours there is still more than 32 LYX in unprocessed unstake request
 
 A 27 hour escrow period follows, similar to an intentional exit delay, where the validator, although removed from its duties, might still be slashed for bad behavior in previous blocks. If the exit delay terminates without incidents, the deposit is finally returned to the withdrawal address and the validator is completely out of the Proof of Stake protocol.&#x20;
 
-Once the deposit leaves the Proof of Stake protocol to the LEEQUID protocol, the claim action will be available for the user and the funds will finally reach the user wallet once he claims the unstaked value.&#x20;
+Once the deposit leaves the Proof of Stake protocol and enters the LEEQUID protocol, the "Claim" action will be available for the user and the funds will finally reach the user wallet once the unstaked value is claimed.&#x20;
 
 ## Cashing out rewards
 

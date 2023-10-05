@@ -4,7 +4,7 @@ The _MerkleDistributor_ smart contract is part of a liquid staking application, 
 
 This contract is beneficial in situations where rewards cannot be directly given to liquidity providers, since liquidity pools are addresses with disabled rewards. Instead, the rewards are calculated off-chain and distributed using a Merkle tree.
 
-This contract plays a crucial role in the rewards distribution system, enabling a secure, transparent, and efficient mechanism for distributing rewards to liquidity providers.
+This contract plays a crucial role in the rewards distribution system, enabling a secure, transparent and efficient mechanism for distributing rewards to liquidity providers.
 
 #### Key features
 
@@ -34,7 +34,7 @@ The contract allows updating the Oracles addresses. This operation can be done o
 
 **Pausing**
 
-The contract inherits from `OwnablePausableUpgradeable`, which allows the admin to pause the contract in case of any anomalies. Certain functions like `upgrade`, `distributePeriodically`, `distributeOneTime`, and `claim` are affected by the pause status of the contract.
+The contract inherits from `OwnablePausableUpgradeable`, which allows the admin to pause the contract in case of anomalies. Certain functions like `upgrade`, `distributePeriodically`, `distributeOneTime`, and `claim` are affected by the pause status of the contract.
 
 **Auditable events**
 

@@ -24,7 +24,7 @@ The underlying structure of validators that generate rewards for the protocol ca
 
 Nothing happens to liquid stakers in the event of slashing, unless there is a huge surge in withdrawal requests and sLYX to LYX swaps in the liquidity pool. In this scenario, because the sLYX is now undercollateralized (there's more sLYX than LYX), some users will face problems of lack of liquidity, being temporarily unable to withdraw their LYX.
 
-In the history of Ethereum's PoS, only once a staking provider suffered a [slashing event](https://cointelegraph.com/news/expensive-lesson-75-eth2-validators-slashed-for-introducing-potential-chain-split-bug). This was February 2021, the very beginning of the staking era. Since then, hundreds of thousands of validators operating for staking pools have been online for years without a single problem.
+In the history of Ethereum's PoS, only once has a staking provider suffered a [slashing event](https://cointelegraph.com/news/expensive-lesson-75-eth2-validators-slashed-for-introducing-potential-chain-split-bug). This was February 2021, the very beginning of the staking era. Since then, hundreds of thousands of validators operating for staking pools have been online for years without a single problem.
 
 #### Prevention and mitigation mechanisms
 

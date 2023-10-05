@@ -6,15 +6,15 @@ Swapping through liquidity pools is only possible because there are people willi
 
 In order to provide liquidity, a user needs to deposit both “x” and “y” tokens in the pool in proportion to the already existing ratio, respecting the established value of “k” in the formula above. The calculation of these values is done automatically by the liquidity pool smart contract.
 
-After providing liquidity, a special token called an LP (Liquidity Provider) token will be minted to the provider’s address. This token is equivalent to shares of the pool, which can be redeemed at any yielding an amount equivalent to the quantities initially deposited, but now in proportion to the current ratio between the pair (x, y).
+After providing liquidity, a special token called an LP (Liquidity Provider) token will be minted to the provider’s account. This token is equivalent to shares of the pool, which can be redeemed at any time yielding an amount equivalent to the quantities initially deposited, but now in proportion to the current ratio between the pair (x, y).
 
-A pool with big reserves of capital deposited in it is considered highly liquid and it is capable of handling large swap requests without skewing the price significantly. On the other hand, when the pool has low liquidity, a reasonable swap size will tilt the pool too much, and the swap will incur in a loss called _slippage_. Due to the tilting of the price during the swap, the ratio will “slip” against the swapper, making him pay a higher price for his tokens than it was initially calculated at the current ratio. This is the reason why high liquidity is a good indicator of protocol health.
+A pool with large reserves of capital deposited in it is considered highly liquid and it is capable of handling large swap requests without skewing the price significantly. On the other hand, when the pool has low liquidity, a reasonable swap size will tilt the pool too much, and the swap will incur in a loss called _slippage_. Due to the tilting of the price during the swap, the ratio will “slip” against the swapper, making him pay a higher price for his tokens than what was initially calculated, at the current ratio. This is the reason why high liquidity is a good indicator of protocol health.
 
 The bigger the trade volume a pool sustains every day, the higher the returns for the liquidity providers, who earn a part of their income through trading fees. In each trade, the fee is taken from the trader and deposited into the pool, increasing the worth of each share held by the liquidity providers, consequently making LP tokens more valuable.
 
 ## How to provide liquidity through the LEEQUID platform
 
-Head over to “Swap” in the main menu and after to the “Liquidity Pool” separator. Here you will have the option to either add or remove liquidity. Before adding liquidity, make sure to have enough sLYX and LYX in your wallet. The interface will tell you the exact quantities for the current ratio. Submit the necessary transactions and your done. From now on, you can check the total amount of fees you have accrued in the liquidity pool dashboard with your wallet connected.
+Head over to “Swap” in the main menu and then to the “Liquidity Pool” tab. Here you will have the option to either add or remove liquidity. Before adding liquidity, make sure you have enough sLYX and LYX in your wallet. The interface will tell you the exact quantities for the current ratio. Submit the necessary transactions and you're done. From now on, you can check the total amount of fees you have accrued in the liquidity pool dashboard with your wallet connected.
 
 ## Collecting staking rewards while providing liquidity
 

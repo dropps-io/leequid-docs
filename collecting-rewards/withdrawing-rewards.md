@@ -1,6 +1,6 @@
 # Withdrawing rewards
 
-As long as you have sLYX, rewards will accrue periodically. They will be visible in the dashboard once you connect your wallet with the sLYX holder address selected. One of the benefits of joining a staking pool is that reward income is much more steady than staking solo, so you should see your rewards update steadily every day. Until you withdraw or re-stake them, rewards are kept safely within the LEEQUID protocol.
+As long as you have sLYX, rewards will accrue periodically. They will be visible in the dashboard once you connect your wallet with the sLYX holder address selected. One of the benefits of joining a staking pool is that reward income is much more steady than staking solo, so you should see your rewards update steadily every day. Until you withdraw or stake them, rewards are kept safely within the LEEQUID protocol.
 
 In any moment, under the “Rewards” section of the dashboard, you will be presented with two possible actions:
 
