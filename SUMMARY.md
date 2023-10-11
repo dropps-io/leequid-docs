@@ -6,7 +6,7 @@
 
 * [Introduction](README.md)
 * [Staking](staking/README.md)
-  * [Staking through the staking pool](staking/staking-through-the-staking-pool.md)
+  * [The staking protocol](staking/the-staking-protocol.md)
   * [Matching stake to unstake requests](staking/matching-stake-to-unstake-requests.md)
   * [Potential wait times while staking](staking/potential-wait-times-while-staking.md)
   * [Deposited LYX lifecycle](staking/deposited-lyx-lifecycle.md)
