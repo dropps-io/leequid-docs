@@ -28,7 +28,7 @@ In the history of Ethereum's PoS, only once has a staking provider suffered a [s
 
 #### Prevention and mitigation mechanisms
 
-* **Monitoring tools like **_**Grafana**_** and **_**Prometheus**_ provide a very useful overview of both the consensus and execution client statuses of node operators. Parameters such as: participation rate, online time, connected peers and cpu usage are constantly monitored and have alerts configured for threshold values.
+* **Monitoring tools like **_**Grafana**_** and **_**Prometheus**_ provide a very useful overview of both the consensus and execution client statuses of node operators. Parameters such as participation rate, online time, connected peers, and CPU usage are constantly monitored and have alerts configured for threshold values.
 * **Client diversity** helps mitigate the damage in case a slashing event happens due to client failure. Each node uses a different client. &#x20;
 * A **secure cloud environment** helps prevent slashing due to intentional tampering with the nodes by a malicious actor taking control.&#x20;
-* A **mechanism to inject the LYX back into the protocol** without minting sLYX is in place. This allows the 1:1 ratio in sLYX to LYX to be restored by injecting rescue capital in the protocol.
+* A **mechanism to inject the LYX back into the protocol** without minting sLYX is in place. This allows the 1:1 ratio in sLYX to LYX to be restored by injecting rescue capital into the protocol.

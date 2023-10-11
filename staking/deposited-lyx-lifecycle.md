@@ -1,6 +1,6 @@
 # Deposited LYX lifecycle
 
-When a user stakes LYX through the LEEQUID staking pool, the coins are transferred to the Pool contract and they will sit there for a few minutes until LEEQUID’s oracles detect an amount bigger than 32 LYX sitting on the Pool contract. This is the condition that triggers the Oracles to register a new validator, transferring the stake from the Pool to the LUKSO official deposit contract. From here, the tokens can either be burned in the case of slashing, or sent to the withdrawal address when the validator exits the protocol.
+When a user stakes LYX through the LEEQUID staking pool, the coins are transferred to the Pool contract, where they will sit for a few minutes until LEEQUID’s oracles detect an amount larger than 32 LYX sitting on the Pool contract. This is the condition that triggers the Oracles to register a new validator, transferring the stake from the Pool to the LUKSO official deposit contract. From here, the tokens can either be burned in the case of slashing, or sent to the withdrawal address when the validator exits the protocol.
 
 <figure><img src="../.gitbook/assets/LYXFLOW.png" alt=""><figcaption><p>LYX flow from the LEEQUID protocol to the LUKSO deposit contract</p></figcaption></figure>
 

@@ -2,7 +2,7 @@
 
 Oracles are a set of software components designed to bridge the blockchain to other internet services, like web API's. Most Oracles are made of:
 
-* A smart contract, which is the Oracle's gateway to interact with other contracts
+* A smart contract, which is the oracles' gateway to interact with other contracts
 * A blockchain node, which can quickly read the state of the blockchain
 * A server running 24 hours, which can fetch data from other networks and monitor the blockchain to act on when specific programmed conditions are met (like the Pool contract balance reaching 32 LYX, for example).
 * A normal blockchain address, with its private key. The oracle uses it to sign transactions to the blockchain, performing automated actions on smart contracts (for example registering validators).
@@ -21,13 +21,13 @@ The Oracles contract forms an integral part of our Liquid Staking application, a
 
 It primarily serves as storage for accounts tasked with submitting or updating values based on off-chain data. A minimum threshold of inputs from various oracles is required for data submission.
 
-The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove and check whether an account has a particular role.
+The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove, and check whether an account has a particular role.
 
 #### The Oracles contract - key features
 
 **On-chain role management**
 
-The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove and check whether an account has a particular role.
+The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove, and check whether an account has a particular role.
 
 **Oracles voting**
 
@@ -51,7 +51,7 @@ The contract includes protective measures to prevent double voting by the same o
 
 **Pause functionality**
 
-It incorporates _Ownable_ and _Pausable_ capabilities to provide admin control and emergency stop mechanism.
+It incorporates _Ownable_ and _Pausable_ capabilities to provide admin control and emergency stop mechanisms.
 
 #### Understanding the workflow with oracles
 
