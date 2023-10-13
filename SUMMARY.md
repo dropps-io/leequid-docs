@@ -32,7 +32,6 @@
 ## LEEQUID in depth
 
 * [Protocol security and risks](leequid-in-depth/protocol-security-and-risks/README.md)
-  * [The Paused state](leequid-in-depth/protocol-security-and-risks/the-paused-state.md)
   * [Security overview](leequid-in-depth/protocol-security-and-risks/security-overview.md)
   * [Validator key management](leequid-in-depth/protocol-security-and-risks/validator-key-management.md)
   * [Smart contract code correctness](leequid-in-depth/protocol-security-and-risks/smart-contract-code-correctness.md)
