@@ -2,7 +2,7 @@
 
 In this documentation you will find details on the inner workings of the LEEQUID protocol, along with some fundamental concepts related to liquid staking. The information herein contained will help you understand how the platform operates, as well as the smart contract logic that ensures the non-custodial processing of staked LYX and the liquidity of the liquid staking derivative token, sLYX.
 
-_Our documentation is under continuous improvement. We encourage you to send us your suggestions and reach out through our public channels._
+_Our documentation is under continuous improvement. We encourage you to send us your suggestions through our public channels or by submitting a pull request to the official_ [_GitHub repository_](https://github.com/dropps-io/leequid-docs)_._
 
 ## About LEEQUID
 

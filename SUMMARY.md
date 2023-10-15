@@ -37,6 +37,7 @@
   * [Smart contract code correctness](leequid-in-depth/protocol-security-and-risks/smart-contract-code-correctness.md)
   * [Slashing and unexpected validator behaviour](leequid-in-depth/protocol-security-and-risks/slashing-and-unexpected-validator-behaviour.md)
   * [sLYX token: economic balance](leequid-in-depth/protocol-security-and-risks/slyx-token-economic-balance.md)
+  * [Incident response](leequid-in-depth/protocol-security-and-risks/incident-response.md)
 * [Smart contracts](leequid-in-depth/smart-contracts/README.md)
   * [Oracles](leequid-in-depth/smart-contracts/oracles.md)
   * [Merkle Distributor](leequid-in-depth/smart-contracts/merkle-distributor.md)
@@ -48,3 +49,5 @@
   * [How it can be obtained](leequid-in-depth/the-slyx-token/how-it-can-be-obtained.md)
   * [1:1 ratio with LYX](leequid-in-depth/the-slyx-token/1-1-ratio-with-lyx.md)
   * [Potential unpeg of sLYX from LYX](leequid-in-depth/the-slyx-token/potential-unpeg-of-slyx-from-lyx.md)
+* [The liquidity pool](leequid-in-depth/the-liquidity-pool/README.md)
+  * [Implementation](leequid-in-depth/the-liquidity-pool/implementation.md)
