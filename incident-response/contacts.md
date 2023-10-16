@@ -16,7 +16,9 @@ gpg --keyserver hkps://keys.openpgp.org --recv-keys "4C43 EF44 0BE5 B87F BC90 95
 
 Please provide all relevant information. The more details you provide, the easier it will be for us to triage and fix the issue.
 
-## Status page
+## Status page (coming soon)
 
-The status page is the most reliable source of information about the status of the LEEQUID protocol. Please refer to the information presented there, as well as any relevant announcements, for an accurate, trustworthy report on any incident with the protocol.&#x20;
+The status page is the most reliable source of information about the status of the LEEQUID protocol.&#x20;
+
+User can refer to the information presented there for an accurate, trustworthy report on any incident with the protocol.&#x20;
 
