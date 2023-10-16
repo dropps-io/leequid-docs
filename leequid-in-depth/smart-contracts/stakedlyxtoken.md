@@ -1,6 +1,6 @@
 # StakedLyxToken
 
-The _StakedLyxToken_ is a smart contract designed to facilitate staking and unstaking operations. The contract follows the LSP7 token standard (Lukso Standard Proposal number 7) and is built with Solidity, making it compatible with the Ethereum blockchain.This is the contract that mints and saves the balances of sLYX tokens, representing the staked amount of every user in the protocol. It is used both in the staking and the unstaking process, and is consulted by the _Rewards_ contract to calculate the reward balance of each account.&#x20;
+The _StakedLyxToken_ is a smart contract designed to facilitate staking and unstaking operations. The contract follows the LSP7 token standard (LUKSO Standard Proposal number 7) and is built with Solidity, making it compatible with the Ethereum blockchain. This is the contract that mints and saves the balances of sLYX tokens, representing the staked amount of every user in the protocol. It is used both in the staking and the unstaking process, and is consulted by the _Rewards_ contract to calculate the reward balance of each account.&#x20;
 
 #### Key features
 

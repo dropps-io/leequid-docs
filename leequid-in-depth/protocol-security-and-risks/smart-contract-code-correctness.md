@@ -14,8 +14,6 @@ layout:
 
 # Smart contract code correctness
 
-#### Description
-
 Even though a series of measures are taken to ensure code correctness, such as:
 
 * Careful development using battle-tested libraries like Open Zeppelin
@@ -24,7 +22,7 @@ Even though a series of measures are taken to ensure code correctness, such as:
 
 The intricacies of protocols such as LEEQUID are such that sometimes bugs can appear in the most unexpected interactions. For that reason, further prevention and handling mechanisms are put in place.&#x20;
 
-#### Prevention mechanisms
+#### Prevention and mitigation mechanisms
 
 * LEEQUID's contracts are _**pausable**_. This means that, in the event of a flaw, the protocol can be stopped immediately, freezing all deposits and withdrawals. The pause action can be executed by an address with the role of _owner_. This address can either be controlled manually by a person (or team), or by a smart contract (for example a _Multisig_ or a DAO).&#x20;
 * LEEQUID's contracts are _**upgradeable**_. If a flaw is discovered, the protocol can be paused, the flaw corrected and the faulty contract upgraded. Upgrading a smart contract means switching it with a new one. This change doesn't affect the protocol or the user, all the data will be preserved and the user-facing surface of the protocol will remain unaltered. Think about it as replacing a malfunctioning battery in a car.&#x20;

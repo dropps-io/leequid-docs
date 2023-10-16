@@ -9,7 +9,7 @@ Oracles are a set of software components designed to bridge the blockchain to ot
 
 The name _oracle_ comes from the fact that a set of components work together to bridge the information between the on-chain and off-chain worlds, sometimes triggering smart contract operations by sending automated transactions to them.&#x20;
 
-<figure><img src="../../.gitbook/assets/Oracles.png" alt=""><figcaption><p>Overview of the Oracle interactions between blockchains and the rest of the internet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Oracles.png" alt=""><figcaption><p>Overview of Oracle interactions, bridging the wider internet to blockchain networks</p></figcaption></figure>
 
 The above graph displays the Oracle outside of the blockchain network. However, an oracle can include a blockchain node to facilitate reading the state of the blockchain, thus belonging to the network as well.&#x20;
 

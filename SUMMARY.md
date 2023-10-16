@@ -33,10 +33,10 @@
 
 * [Protocol security and risks](leequid-in-depth/protocol-security-and-risks/README.md)
   * [Security overview](leequid-in-depth/protocol-security-and-risks/security-overview.md)
-  * [Validator key management](leequid-in-depth/protocol-security-and-risks/validator-key-management.md)
   * [Smart contract code correctness](leequid-in-depth/protocol-security-and-risks/smart-contract-code-correctness.md)
   * [Slashing and unexpected validator behaviour](leequid-in-depth/protocol-security-and-risks/slashing-and-unexpected-validator-behaviour.md)
   * [sLYX token: economic balance](leequid-in-depth/protocol-security-and-risks/slyx-token-economic-balance.md)
+  * [Validator key management](leequid-in-depth/protocol-security-and-risks/validator-key-management.md)
 * [Smart contracts](leequid-in-depth/smart-contracts/README.md)
   * [Oracles](leequid-in-depth/smart-contracts/oracles.md)
   * [Merkle Distributor](leequid-in-depth/smart-contracts/merkle-distributor.md)
