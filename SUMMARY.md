@@ -1,15 +1,17 @@
 # Table of contents
 
+* [Welcome](README.md)
+
 ## Navigating LEEQUID
 
 ***
 
-* [Introduction](README.md)
 * [Staking](staking/README.md)
   * [The staking protocol](staking/the-staking-protocol.md)
   * [Matching stake to unstake requests](staking/matching-stake-to-unstake-requests.md)
   * [Potential wait times while staking](staking/potential-wait-times-while-staking.md)
   * [Deposited LYX lifecycle](staking/deposited-lyx-lifecycle.md)
+  * [Adding sLYX to your wallet](staking/adding-slyx-to-your-wallet.md)
 * [Collecting rewards](collecting-rewards/README.md)
   * [Reward calculation in Proof of Stake](collecting-rewards/reward-calculation-in-proof-of-stake.md)
   * [Reward distribution in the LEEQUID protocol](collecting-rewards/reward-distribution-in-the-leequid-protocol.md)
@@ -37,7 +39,6 @@
   * [Smart contract code correctness](leequid-in-depth/protocol-security-and-risks/smart-contract-code-correctness.md)
   * [Slashing and unexpected validator behaviour](leequid-in-depth/protocol-security-and-risks/slashing-and-unexpected-validator-behaviour.md)
   * [sLYX token: economic balance](leequid-in-depth/protocol-security-and-risks/slyx-token-economic-balance.md)
-  * [Incident response](leequid-in-depth/protocol-security-and-risks/incident-response.md)
 * [Smart contracts](leequid-in-depth/smart-contracts/README.md)
   * [Oracles](leequid-in-depth/smart-contracts/oracles.md)
   * [Merkle Distributor](leequid-in-depth/smart-contracts/merkle-distributor.md)
@@ -51,3 +52,8 @@
   * [Potential unpeg of sLYX from LYX](leequid-in-depth/the-slyx-token/potential-unpeg-of-slyx-from-lyx.md)
 * [The liquidity pool](leequid-in-depth/the-liquidity-pool/README.md)
   * [Implementation](leequid-in-depth/the-liquidity-pool/implementation.md)
+
+## Incident Response
+
+* [Contacts](incident-response/contacts.md)
+* [Vulnerability Disclosure Policy](incident-response/vulnerability-disclosure-policy.md)
