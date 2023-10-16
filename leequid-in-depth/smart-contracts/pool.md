@@ -139,7 +139,7 @@ $$
 validatorIndex * 1e4 <= activatedValidators * 1e4 + effectiveValidators() * pendingValidatorsLimit
 $$
 
-...prevents what is called "socialization of rewards", or in other words, reward dilution due to big amounts of LYX flowing into the protocol. You can get an overview of this issue in the [Staking section](../../staking/potential-wait-times-while-staking.md) of this documentation.
+...prevents what is called "socialization of rewards", or in other words, reward dilution due to big amounts of LYX flowing into the protocol. You can get an overview of this issue in the [Staking section](../../navigating-leequid/staking/potential-wait-times-while-staking.md) of this documentation.
 
 #### Understanding multipliers as a workaround to floating point arithmetic
 

@@ -6,7 +6,7 @@ If a user wants to unstake at a 1:1 ratio between sLYX and LYX, he might choose 
 
 The process first starts with the LEEQUID protocol attempting to [match the unstake request to new stake](matching-unstake-to-stake-requests.md) flowing into the protocol. Then, if unsuccessful after a period of 24 hours, it triggers the removal of the necessary amount of validators from the Proof of Stake protocol, which will free the capital employed in them and return it to the LEEQUID protocol.
 
-<figure><img src="../.gitbook/assets/unstake_flowchart.png" alt=""><figcaption><p>The unstake process inside the LEEQUID protocol</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unstake_flowchart.png" alt=""><figcaption><p>The unstake process inside the LEEQUID protocol</p></figcaption></figure>
 
 If after 24 hours there is still more than 32 LYX in unprocessed unstake requests, the LEEQUID nodes broadcast to the consensus network the wish to voluntarily exit the necessary validators to cover for the withdrawal request. The validators are then added to the exit queue by the consensus network. When there is no remaining exit queue, it will take around 30 minutes until a validator is stopped. At this stage, the validator will become inactive but its deposit of 32 LYX will remain locked in the LUKSO deposit contract.&#x20;
 

@@ -1,4 +1,4 @@
-# Introduction
+# Welcome
 
 In this documentation you will find details on the inner workings of the LEEQUID protocol, along with some fundamental concepts related to liquid staking. The information herein contained will help you understand how the platform operates, as well as the smart contract logic that ensures the non-custodial processing of staked LYX and the liquidity of the liquid staking derivative token, sLYX.
 
@@ -12,7 +12,7 @@ LEEQUID users can deposit and withdraw LYX at any time, accruing rewards through
 
 The rewards, which are distributed evenly to all stakers according to their share of the pool, come from the work of Proof of Stake validators, registered automatically in the LUKSO blockchain by the LEEQUID protocol. By running its own node infrastructure, LEEQUID ensures maximum validator performance, closely monitoring validator metrics, and providing staking as a service in the LUKSO blockchain for the first time.
 
-There is no upfront cost for users staking through LEEQUID. Instead, the protocol takes a 10% fee on accumulated rewards. See the section on [reward distribution](collecting-rewards/reward-distribution-in-the-leequid-protocol.md) for more details.
+There is no upfront cost for users staking through LEEQUID. Instead, the protocol takes a 10% fee on accumulated rewards. See the section on [reward distribution](navigating-leequid/collecting-rewards/reward-distribution-in-the-leequid-protocol.md) for more details.
 
 The diagram below is a graphical representation of the interactions between LEEQUID's oracles, the smart contracts in the protocol, and user actions. The information in the diagram is complemented by this documentation as well as the official [GitHub repository](https://github.com/dropps-io/leequid-contracts) of the protocol.
 
@@ -20,7 +20,7 @@ The diagram below is a graphical representation of the interactions between LEEQ
 
 ### Securing the LEEQUID protocol
 
-Once LYX moves from the user's wallet into the LEEQUID protocol, staking is handled in a predictable, programmed, non-custodial way. Deposited LYX coins will move through the staking contracts and into LUKSO’s deposit contract, where they will sit until an unstake request activates their withdrawal, return to the protocol, and finally, redemption to the user wallet. The flow of LYX inside LEEQUID is explained in detail in [this section](staking/deposited-lyx-lifecycle.md).
+Once LYX moves from the user's wallet into the LEEQUID protocol, staking is handled in a predictable, programmed, non-custodial way. Deposited LYX coins will move through the staking contracts and into LUKSO’s deposit contract, where they will sit until an unstake request activates their withdrawal, return to the protocol, and finally, redemption to the user wallet. The flow of LYX inside LEEQUID is explained in detail in [this section](navigating-leequid/staking/deposited-lyx-lifecycle.md).
 
 The [code in the protocol](https://github.com/dropps-io/leequid-contracts) is open source and has been audited by [Consensys](https://consensys.io/diligence/), one of the most reputable auditors in the web3 space.
 

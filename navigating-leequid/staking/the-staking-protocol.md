@@ -6,7 +6,7 @@ An [LSP7](https://docs.lukso.tech/standards/nft-2.0/LSP7-Digital-Asset/) token c
 
 Below is a flowchart illustrating what happens inside the LEEQUID protocol when a user triggers a staking request by making a deposit in the Pool contract:
 
-<figure><img src="../.gitbook/assets/StakingFlow_titleless.png" alt=""><figcaption><p>Flow of the staking process inside the Pool contract</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/StakingFlow_titleless.png" alt=""><figcaption><p>Flow of the staking process inside the Pool contract</p></figcaption></figure>
 
 Notice that the process goes through a sequence of exit paths, which result in an immediate minting of sLYX. If it fails to enter any of the “escape” paths, the deposit is added to the dilution queue. \
 \

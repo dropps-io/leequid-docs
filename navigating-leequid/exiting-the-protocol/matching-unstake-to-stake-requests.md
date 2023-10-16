@@ -10,7 +10,7 @@ Both scenarios 1 and 2 result in the unstake request advancing to the next stage
 
 
 
-<figure><img src="../.gitbook/assets/unstake_flowchart.png" alt=""><figcaption><p>The unstake process. Notice the separation of flows after the "Match found" condition.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unstake_flowchart.png" alt=""><figcaption><p>The unstake process. Notice the separation of flows after the "Match found" condition.</p></figcaption></figure>
 
 
 
