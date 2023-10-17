@@ -20,5 +20,5 @@ Please provide all relevant information. The more details you provide, the easie
 
 The status page is the most reliable source of information about the status of the LEEQUID protocol.&#x20;
 
-User can refer to the information presented there for an accurate, trustworthy report on any incident with the protocol.&#x20;
+Users can refer to the information presented there for an accurate, trustworthy report on any incident with the protocol.&#x20;
 
