@@ -9,7 +9,7 @@
   * [Matching stake to unstake requests](navigating-leequid/staking/matching-stake-to-unstake-requests.md)
   * [Potential wait times while staking](navigating-leequid/staking/potential-wait-times-while-staking.md)
   * [Deposited LYX lifecycle](navigating-leequid/staking/deposited-lyx-lifecycle.md)
-  * [Adding sLYX to your wallet](navigating-leequid/staking/adding-slyx-to-your-wallet.md)
+  * [Importing sLYX to your wallet](navigating-leequid/staking/importing-slyx-to-your-wallet.md)
 * [Collecting rewards](navigating-leequid/collecting-rewards/README.md)
   * [Reward calculation in Proof of Stake](navigating-leequid/collecting-rewards/reward-calculation-in-proof-of-stake.md)
   * [Reward distribution in the LEEQUID protocol](navigating-leequid/collecting-rewards/reward-distribution-in-the-leequid-protocol.md)
