@@ -39,7 +39,7 @@ Besides the priority fee, being the block proposer allows a validator to choose 
 
 * Frontrunning: Directly replace a transaction that would result in profit.
 * Sandwich attack: It also involves frontrunning, but with the specific goal of profiting from a large swap intention. Two transactions are added in between a large swap. One which buys the token before, at a lower price, and one that sells them after the swap, profiting from the price change due to the large swap inside the sandwich.
-* Arbitrage: There are many bots submitting arbitrage transactions and the block proposer can be one of them and choose itself.&#x20;
+* Arbitrage: There are many bots submitting the same arbitrage transaction at the same time. The block proposer can be one of them and is able to choose its own transaction and include it in the block.&#x20;
 * Liquidations: Lending protocols rely on external participants called liquidators to liquidate undercollateralized loans, in exchange of a fee.&#x20;
 
 Payments from MEV can be very generous, but they vary considerably, according to network usage. In the infancy of the LUKSO blockchain, MEV will mostly be inexistent because there will be no DeFi protocols to create the opportunities.&#x20;
