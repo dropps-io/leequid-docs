@@ -12,7 +12,7 @@ The new LYX minted in each slot makes up the total consensus layer rewards for t
 
 > A _partial_ withdrawal will be performed automatically, in a regular period, for the validators whose balance is above 32 ETH (due to their rewards). The exceeding amount of ETH will be transferred to the Ethereum account they have declared in the transaction they submitted to the Deposit Contract (in the field `eth1_withdrawal_address`) - [Nethermind-eth blog](https://medium.com/nethermind-eth/bls-signatures-withdrawals-bbf38658c242#2be3)
 
-The blockchain account specified as the _withdrawal address_ for all validators operated by LEEQUID is the address of the _Rewards_ contract. There is a constant flow of LYX into this contract and periodically the Oracles calculate the amount of _partial withdrawals_ collected and update the&#x20;
+The blockchain account specified as the _withdrawal address_ for all validators operated by LEEQUID is the address of the _Rewards_ contract. There is a constant flow of LYX into this contract and periodically the Oracles calculate the amount of _partial withdrawals_ collected and update the `totalRewards` collected by the protocol.
 
 The consensus layer rewards accrued by validators come from the duties they perform in securing the blockchain, by participating in the consensus protocol. Among them, we count:
 
