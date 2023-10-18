@@ -4,7 +4,7 @@ Rewards earned by validators come mainly from their attesting duties in the cons
 
 On the other hand, users pay gas fees to have the network execute their transactions. In Proof of Stake, the gas paid by users doesn't go to the validators. Instead, it is burned. This means that LYX is being burned in every slot.&#x20;
 
-It is possible for users to send an extra tip, on top of gas paid, to the validator chosen as the block proposer in a given slot. This tip is what makes up a big part of execution layer rewards, and is called the Priority Fee. Besides the priority fee, there is the famously known MEV (Maximal Extractable Value), which can be extracted through the execution layer.
+It is possible for users to send an extra tip, on top of gas paid, to the validator chosen as the block proposer in a given slot. This tip is makes up a big part of execution layer rewards, and is called the priority fee. Besides the priority fee, there is the famously known MEV (Maximal Extractable Value), which can be extracted through the execution layer as well.
 
 ### Consensus layer rewards
 
