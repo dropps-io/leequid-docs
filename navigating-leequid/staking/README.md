@@ -1,2 +1,2 @@
-# Staking
+# 🌱 Staking
 

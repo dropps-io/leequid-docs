@@ -1,2 +1,2 @@
-# The sLYX token
+# 💧 The sLYX token
 

@@ -1,2 +1,2 @@
-# Protocol security and risks
+# 🔐 Protocol security and risks
 

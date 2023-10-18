@@ -1,2 +1,2 @@
-# Exiting the protocol
+# 🍂 Exiting the protocol
 

@@ -1,2 +1,2 @@
-# Collecting rewards
+# 🍇 Collecting rewards
 
