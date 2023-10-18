@@ -1,6 +1,8 @@
-# Pool
+---
+description: '0x7B6D1201A9e98B16EFef58CC42afFeb8D805d120'
+---
 
-#### Overview
+# Pool
 
 The Pool contract handles the transfer of user funds into the LEEQUID protocol. Afterwards, it expects a transaction submitted by the Oracles, which are responsible for choosing the node operator and composing all the necessary data to register a new validator. This set of data is called the _deposit data_ and it will be used to register the validator in the Proof of Stake protocol. The _deposit data_ structure must contain:
 
@@ -22,31 +24,31 @@ The Pool contract handles the transfer of user funds into the LEEQUID protocol. 
     }
 ```
 
-#### Key features
+### Key features
 
-**Stake Management**
+#### **Stake Management**
 
 The Pool contract provides functionality for staking. Users can send LYX to the contract using various methods (`stake`, `stakeOnBehalf`, `stakeWithPartner`, `stakeWithPartnerOnBehalf`, `stakeWithReferrer`, `stakeWithReferrerOnBehalf`). All these methods are non-reentrant, which means they prevent reentrancy attacks - a common smart contract vulnerability.
 
-**Validator Registration**
+#### **Validator Registration**
 
 The contract facilitates registering validators with the LUKSO Deposit Contract. It keeps track of the total number of activated validators and exited validators. It also manages the scheduling of activation and deactivation of validators.
 
-**Deposit Tracking**
+#### **Deposit Tracking**
 
 The Pool contract keeps track of the total pending validators and the minimum amount of LYX deposit that is considered for the activation period. It also maintains a limit on the pending validators percentage, a variable called _pendingValidatorsLimit_. If such limit is not exceeded, tokens can be minted immediately. This promotes efficient use of the staking pool and rewards early stakers.
 
-**Upgradeability and access control**
+#### **Upgradeability and access control**
 
 The contract uses `OwnablePausableUpgradeable` to provide the ability to pause functions during contract upgrades or in case of any suspicious activity. This improves the security of the contract and provides a way to prevent malicious activities.
 
-**Secure execution**
+#### **Secure execution**
 
 The contract employs OpenZeppelin's `ReentrancyGuardUpgradeable` contract to prevent re-entrancy attacks. This ensures that all internal calls are completed before the control flow is returned to the external caller.
 
-#### Registering validators
+### The flow of registering validators
 
-Once the oracles have noticed more than 32 LYX standing in the Pool contract, they will generate the data for a new validator, before passing it to the Pool contract. The Pool contract will register the validator on the LUKSO deposit contract, along with the LYX deposit.&#x20;
+Once the oracles have noticed more than 32 LYX standing in the Pool contract, they will generate the data for a new validator, before passing it to the Pool contract in the deposit transaction. The Pool contract will register the validator on the LUKSO deposit contract, along with the LYX deposit.&#x20;
 
 ```solidity
     function registerValidator(IPoolValidators.DepositData calldata depositData) external override whenNotPaused {
@@ -83,7 +85,7 @@ This variable represents the LUKSO deposit contract, and that's why the Pool con
 
 Notice that because LUKSO is a fork of Ethereum, it inherits the solidity keywords, which include those for units such as ether and wei.
 
-#### The LYX pathway inside the Pool contract
+### The LYX pathway inside the Pool contract
 
 LYX enters the Pool contract via the payable stake function:
 
@@ -141,7 +143,7 @@ $$
 
 ...prevents what is called "socialization of rewards", or in other words, reward dilution due to big amounts of LYX flowing into the protocol. You can get an overview of this issue in the [Staking section](../../navigating-leequid/staking/potential-wait-times-while-staking.md) of this documentation.
 
-#### Understanding multipliers as a workaround to floating point arithmetic
+### Understanding multipliers as a workaround to floating point arithmetic
 
 In the above formula, _pendingValidatorsLimit_ acts as a multiplier, just as 1e4 does. This is due to solidity not handling floating point calculations (operations with numbers containing a decimal part). Thus, this math is necessary in order to obtain a fractional value of the total number of validators. In other words, we cannot multiply a number by 10% (0.1) in solidity. In order to do that, we must multiply all numbers in a formula by a base factor. The one you see in the code is 1e4, which corresponds to the number 10000 in decimal notation and allows us a precision of 2 decimals (0,01%). When we want to take a fraction of a number, instead of multiplying it by the base factor 10000, we multiply it, for example, by a number which is 10 times less, 10% of the base factor.&#x20;
 

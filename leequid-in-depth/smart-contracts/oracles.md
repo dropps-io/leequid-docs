@@ -1,3 +1,7 @@
+---
+description: '0x987E6dA8F94D56D5742958f99950860FA5B120cC'
+---
+
 # Oracles
 
 Oracles are a set of software components designed to bridge the blockchain to other internet services, like web API's. Most Oracles are made of:
@@ -9,13 +13,13 @@ Oracles are a set of software components designed to bridge the blockchain to ot
 
 The name _oracle_ comes from the fact that a set of components work together to bridge the information between the on-chain and off-chain worlds, sometimes triggering smart contract operations by sending automated transactions to them.&#x20;
 
-<figure><img src="../../.gitbook/assets/Oracles.png" alt=""><figcaption><p>Overview of Oracle interactions, bridging the wider internet to blockchain networks</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Oracles.png" alt=""><figcaption><p>Overview of how oracles stand as a bridge between the wider internet and blockchain networks</p></figcaption></figure>
 
 The above graph displays the Oracle outside of the blockchain network. However, an oracle can include a blockchain node to facilitate reading the state of the blockchain, thus belonging to the network as well.&#x20;
 
 Oracles interact with the world outside of blockchain and interact with smart contracts. In the case of staking protocols, for example, Oracles query the consensus layer explorer to obtain information about the total rewards delivered to the staking protocol. This information is not available inside the execution layer of the blockchain. Once the oracles calculate the rewards for a period of, for example, 12 hours, they send a transaction to the execution layer, updating the reward amount in the protocol and consequently updating user reward balances.
 
-#### The Oracles contract - overview
+### The Oracles contract - overview
 
 The Oracles contract forms an integral part of our Liquid Staking application, acting as a bridge between our on-chain protocol and off-chain oracles system.
 
@@ -23,37 +27,37 @@ It primarily serves as storage for accounts tasked with submitting or updating v
 
 The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove, and check whether an account has a particular role.
 
-#### The Oracles contract - key features
+### The Oracles contract - key features
 
-**On-chain role management**
+#### **On-chain role management**
 
 The contract maintains an on-chain record of accounts with `ORACLE_ROLE` and `ORCHESTRATOR_ROLE`. It exposes functionalities to add, remove, and check whether an account has a particular role.
 
-**Oracles voting**
+#### **Oracles voting**
 
 Oracles collectively participate in voting for updating reward-related values and validator-related values. Only when enough signatures (more than 2/3 of total oracles) are provided, the values are updated. This offers a level of protection against malicious data manipulation.
 
-**Stake and unstake management**
+#### **Stake and unstake management**
 
 The contract communicates with other contracts to manage staking and unstaking. Particularly, it interacts with the StakedLyxToken contract to manage the unstake requests.
 
-**Merkle root submission**
+#### **Merkle root submission**
 
 Oracles vote on submitting a new Merkle root. This submission only happens when enough oracles have signed the data, and it's the appropriate time for voting, ensuring transparency and data integrity.
 
-**Validator registration**
+#### **Validator registration**
 
 This contract facilitates validator registration by orchestrating collective voting of Oracles.
 
-**Robust security**
+#### **Robust security**
 
 The contract includes protective measures to prevent double voting by the same oracle and any unauthorized access. It uses the OpenZeppelin library for secure, tested contract standards.
 
-**Pause functionality**
+#### **Pause functionality**
 
 It incorporates _Ownable_ and _Pausable_ capabilities to provide admin control and emergency stop mechanisms.
 
-#### Understanding the workflow with oracles
+### Understanding the workflow of oracles
 
 1. Oracles are added to the contract. Their collective vote decides various actions.
 2. The reward amounts fetched from the consensus layer API are submitted by voting. Each oracle signs off on total rewards and validator counts. Only when the threshold number of signatures is collected, these values are updated.
@@ -63,7 +67,7 @@ It incorporates _Ownable_ and _Pausable_ capabilities to provide admin control a
 
 An understanding of the broader liquid staking ecosystem will provide further context to how the Oracles contract fits in.
 
-#### Functions called by the Oracles contract
+### Functions called by the Oracles contract
 
 {% code title="Rewards.sol" %}
 ```solidity

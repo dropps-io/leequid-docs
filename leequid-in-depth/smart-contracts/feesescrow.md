@@ -1,3 +1,7 @@
+---
+description: '0x9658B1Ff55597303EF2Ed963A9E8Aadb7E3E135e'
+---
+
 # FeesEscrow
 
 The _FeesEscrow_ contract is a very short contract that has only one function: to temporarily store execution layer rewards.&#x20;

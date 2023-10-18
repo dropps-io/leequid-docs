@@ -1,10 +1,14 @@
+---
+description: '0xDF9124ee97d7a8eB8fe845b6C6eE8a8D75B55a57'
+---
+
 # StakedLyxToken
 
 The _StakedLyxToken_ is a smart contract designed to facilitate staking and unstaking operations. The contract follows the LSP7 token standard (LUKSO Standard Proposal number 7) and is built with Solidity, making it compatible with the Ethereum blockchain. This is the contract that mints and saves the balances of sLYX tokens, representing the staked amount of every user in the protocol. It is used both in the staking and the unstaking process, and is consulted by the _Rewards_ contract to calculate the reward balance of each account.&#x20;
 
-#### Key features
+### Key features
 
-**Staking**
+#### **Staking**
 
 The contract enables users to keep track of their staked tokens by minting 1 sLYX token for each LYX token staked on the `Pool` contract. The staking process starts with a transaction addressed to the _Pool_ contract, which will call the _StakedLyxToken_ mint function:
 
@@ -28,7 +32,7 @@ function mint(
     }
 ```
 
-**Unstaking**
+#### **Unstaking**
 
 The contract includes a comprehensive unstaking mechanism, allowing users to request unstaking of their tokens. Unstaking requests are stored in the `_unstakeRequests` mapping and can be retrieved using the `unstakeRequest` function.&#x20;
 
