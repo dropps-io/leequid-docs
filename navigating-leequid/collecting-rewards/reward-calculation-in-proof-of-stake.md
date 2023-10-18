@@ -38,7 +38,7 @@ These are the two sources of execution layer rewards. In contrast with the ones 
 Besides the priority fee, being the block proposer allows a validator to choose the order of transactions in that block. Using tools to analyze their effect, the [block proposer can scan](#user-content-fn-2)[^2] pending transactions and identify profit opportunities which can be seized by replacing the pending transaction with a copy, only altering the profiting address. Here are some examples of MEV opportunities:
 
 * Frontrunning: Directly replace a transaction that would result in profit.
-* Sandwich attack: It also involves frontrunning, but with the specific goal of profiting from a large swap intention. Two transactions are added in between a large swap. One which buys the token before, at a lower price and one that sells it after the swap, profiting from the price change due to the large swap inside the sandwich.
+* Sandwich attack: It also involves frontrunning, but with the specific goal of profiting from a large swap intention. Two transactions are added in between a large swap. One which buys the token before, at a lower price, and one that sells them after the swap, profiting from the price change due to the large swap inside the sandwich.
 * Arbitrage: There are many bots submitting arbitrage transactions and the block proposer can be one of them and choose itself.&#x20;
 * Liquidations: Lending protocols rely on external participants called liquidators to liquidate undercollateralized loans, in exchange of a fee.&#x20;
 
