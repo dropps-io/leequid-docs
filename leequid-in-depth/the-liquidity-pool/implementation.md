@@ -1,6 +1,6 @@
 # Implementation
 
-LEEQUID features a LYX/sLYX pair liquidity pool, alongside its main staking protocol. The liquidity pool logic is handled by the code of [Uniswap V2](https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/), directly deployed on the LUKSO blockchain with no modifications.&#x20;
+LEEQUID features a LYX/sLYX pair liquidity pool, alongside its main staking protocol. The liquidity pool logic is handled by the code of [Uniswap V2](https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/), directly deployed on the LUKSO blockchain with no modifications. This is the first decentralized exchange (DEX), deployed on LUKSO's mainnet and it serves the staking pool by adding an instant route to stake or unstake, granting the sLYX token maximum liquidity.
 
 Uniswap V2 is an [EVM compatible](#user-content-fn-1)[^1] smart contract suite, which allows the creation of exchange markets between any two [ERC-20](https://eips.ethereum.org/EIPS/eip-20) tokens. In these exchange markets, the presence of liquidity reserves and AMM[^2] logic ensure instant swaps and settle the price.&#x20;
 
