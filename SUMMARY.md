@@ -48,8 +48,8 @@
   * [How it can be obtained](leequid-in-depth/the-slyx-token/how-it-can-be-obtained.md)
   * [1:1 ratio with LYX](leequid-in-depth/the-slyx-token/1-1-ratio-with-lyx.md)
   * [Potential unpeg of sLYX from LYX](leequid-in-depth/the-slyx-token/potential-unpeg-of-slyx-from-lyx.md)
-* [💦 The liquidity pool](leequid-in-depth/the-liquidity-pool/README.md)
-  * [Implementation](leequid-in-depth/the-liquidity-pool/implementation.md)
+* [💦 The liquidity pool (DEX)](leequid-in-depth/the-liquidity-pool-dex/README.md)
+  * [Implementation](leequid-in-depth/the-liquidity-pool-dex/implementation.md)
 
 ## Incident Response
 
