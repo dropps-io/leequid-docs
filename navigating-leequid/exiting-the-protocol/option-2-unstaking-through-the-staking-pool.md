@@ -1,8 +1,8 @@
-# Unstaking through the staking pool
+# Option 2: unstaking through the staking pool
 
 ## Overview
 
-If a user wants to unstake at a 1:1 ratio between sLYX and LYX, he might choose to go through the staking pool, initiating a request to unstake (which will take between 1 to 2 days to complete). Unstaking implies redeeming sLYX tokens for LYX coins. The sLYX tokens will be burnt and the LYX coins transferred to the user's address.&#x20;
+If a user wants to unstake at a 1:1 ratio between sLYX and LYX, he might choose to go through the staking pool, initiating a request to unstake (which usually takes between 1 to 3 days to complete). Unstaking implies redeeming sLYX tokens for LYX coins. The sLYX tokens will be burnt and the LYX coins transferred to the user's address.&#x20;
 
 The process first starts with the LEEQUID protocol attempting to [match the unstake request to new stake](matching-unstake-to-stake-requests.md) flowing into the protocol. Then, if unsuccessful after a period of 24 hours, it triggers the removal of the necessary amount of validators from the Proof of Stake protocol, which will free the capital employed in them and return it to the LEEQUID protocol.
 
