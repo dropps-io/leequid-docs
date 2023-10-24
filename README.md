@@ -6,9 +6,12 @@ _Our documentation is under continuous improvement. We encourage you to send us 
 
 ## About LEEQUID
 
-LEEQUID is a non-custodial liquid staking protocol for the LUKSO blockchain. The protocol emerged as a fork of [Stakewise V2](https://github.com/stakewise/contracts/tree/master/contracts/pool), a liquid staking pool available for the Ethereum blockchain, pre-Shapella upgrade. The LEEQUID protocol, deployed on the LUKSO blockchain, results from numerous upgrades to the Stakewise V2 protocol, advancing it to a pos-Shapella state, where withdrawals are enabled. Developments over Stakewise V2 include:
+LEEQUID is a non-custodial liquid staking protocol for the LUKSO blockchain. The protocol emerged as a fork of [Stakewise V2](https://github.com/stakewise/contracts/tree/master/contracts/pool), a liquid staking pool available for the Ethereum blockchain, pre-Shapella upgrade. The LEEQUID protocol, deployed on the LUKSO blockchain, results from numerous upgrades to the Stakewise V2 protocol, advancing it to a pos-Shapella state, where withdrawals are enabled.
+
+&#x20;Progress over Stakewise V2 includes:
 
 * A full unstaking system, which effectively exits validators, recovering staked LYX and burning sLYX in the process. Exiting validators and withdrawing rewards became available for EVM blockchains like LUKSO after the [Shapella upgrade](https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement), on April 12th, 2023.
+* The possibility to withdraw rewards to one's wallet. This means not only accruing them in the liquid staking token, but effectively transfer them as LYX, anytime, to a user controlled Universal Profile or Externally Owned Address.
 * A stake/unstake buffer to match incoming deposits with outgoing withdrawals. This buffer can transform waiting periods of days into minutes.&#x20;
 * Adjustment to the LSP7 token standard, making LEEQUID the first LUKSO native DeFi protocol.
 * Update of solidity code to the newest version, benefiting from increased security and efficiency.&#x20;
