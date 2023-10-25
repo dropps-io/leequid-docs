@@ -1,3 +1,7 @@
+---
+description: '0xB9ddaE8a609167472549f7A68425c47Dba3515EC'
+---
+
 # Implementation
 
 LEEQUID features a LYX/sLYX pair liquidity pool, alongside its main staking protocol. The liquidity pool logic is handled by the code of [Uniswap V2](https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/), directly deployed on the LUKSO blockchain with no modifications. This is the first decentralized exchange (DEX), deployed on LUKSO's mainnet and it serves the staking pool by adding an instant route to stake or unstake, granting the sLYX token maximum liquidity.
