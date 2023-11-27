@@ -45,7 +45,7 @@
   * [StakedLyxToken](leequid-in-depth/smart-contracts/stakedlyxtoken.md)
   * [FeesEscrow](leequid-in-depth/smart-contracts/feesescrow.md)
 * [💧 The sLYX token](leequid-in-depth/the-slyx-token/README.md)
-  * [How it can be obtained](leequid-in-depth/the-slyx-token/how-it-can-be-obtained.md)
+  * [Acquiring sLYX](leequid-in-depth/the-slyx-token/acquiring-slyx.md)
   * [1:1 ratio with LYX](leequid-in-depth/the-slyx-token/1-1-ratio-with-lyx.md)
   * [Potential unpeg of sLYX from LYX](leequid-in-depth/the-slyx-token/potential-unpeg-of-slyx-from-lyx.md)
 * [💦 The liquidity pool (DEX)](leequid-in-depth/the-liquidity-pool-dex/README.md)
