@@ -1,7 +1,7 @@
 # Potential wait times while staking
 
 {% hint style="info" %}
-**Usually, staking in LEEQUID will be a fluid process with no wait times**. However, certain constraints in the Proof of Stake protocol can affect the staking pool. In this section, we'll learn more about them and how they interact with LEEQUID.
+**Usually, staking in LEEQUID will be a fluid process with no wait times**. **However, during big surges in staking volume, a dilution queue is in place that will delay the minting of sLYX.** Certain constraints in the Proof of Stake protocol can slow the staking pool capacity to add new validators to the network. In this section, we'll learn more about them and how they interact with LEEQUID.
 {% endhint %}
 
 ## The validator lifecycle
