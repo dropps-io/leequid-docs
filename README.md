@@ -6,6 +6,8 @@ _Our documentation is under continuous improvement. We encourage you to send us 
 
 ## About LEEQUID
 
+Protocol Status Page: [https://status.leequid.info/](https://status.leequid.info/)
+
 LEEQUID is a non-custodial liquid staking protocol for the LUKSO blockchain. The protocol emerged as a fork of [Stakewise V2](https://github.com/stakewise/contracts/tree/master/contracts/pool), a liquid staking pool available for the Ethereum blockchain, pre-Shapella upgrade. The LEEQUID protocol, deployed on the LUKSO blockchain, results from numerous upgrades to the Stakewise V2 protocol, advancing it to a pos-Shapella state, where withdrawals are enabled.
 
 &#x20;Progress over Stakewise V2 includes:
