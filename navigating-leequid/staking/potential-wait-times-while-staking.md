@@ -4,19 +4,29 @@
 **Usually, staking in LEEQUID will be a fluid process with no wait times**. **However, during big surges in staking volume, a dilution queue is in place that will delay the minting of sLYX.** Certain constraints in the Proof of Stake protocol can slow the staking pool capacity to add new validators to the network. In this section, we'll learn more about them and how they interact with LEEQUID.
 {% endhint %}
 
+## Can I bypass the queues?
+
+Before delving into the rationale behind the protocol's queues, let's explore an existing alternative: [the liquidity pool.](../../leequid-in-depth/the-liquidity-pool-dex/) This is a component of the LEEQUID protocol designed to facilitate instant conversions between sLYX and LYX, enabling immediate staking and unstaking.&#x20;
+
+Acquiring sLYX through the liquidity pool yields the same result as staking through the staking pool: a deposit of sLYX into the user's wallet, generating rewards overtime. However, this swap operation incurs a small fixed fee of 0.3% along with a slight loss of capital known as "slippage", which increases proportionally with the amount swapped.&#x20;
+
+Before deciding on the path of staking sLYX, a user should consider the queue length and the potential rewards they might miss out on while queued for activation. During congested periods, it might be more advantageous to swap instead of staking through the staking pool.
+
 ## The validator lifecycle
 
-Below is a diagram of the validator lifecycle inside the Proof of Stake protocol:&#x20;
+After a LEEQUID user submits a new stake request, the staked LYX will sit in the [Pool contract](../../leequid-in-depth/smart-contracts/pool.md) until the oracles pick it up and send it to the LUKSO Deposit contract, registering new validators. From this point onwards, the validator lifecycle begins:
 
 <figure><img src="../../.gitbook/assets/Validator_states (2).png" alt=""><figcaption><p>source: <a href="https://docs.prylabs.network/docs/how-prysm-works/validator-lifecycle">https://docs.prylabs.network/docs/how-prysm-works/validator-lifecycle</a></p></figcaption></figure>
 
 ### State 0: Unknown (deposit transaction pending)
 
-The deposit transaction is created by the oracles and sent through the pool contract. This transaction will sit in the pending transactions list (called the _mempool_) for some minutes, before it is included in a block.&#x20;
+The deposit transaction is created by the oracles after they recognize a user's staking request and is sent through the pool contract. This transaction effectively moves the staked LYX away from the boundaries of the LEEQUID protocol, into the LUKSO deposit contract. In exchange, the LUKSO deposit contract will provide LEEQUID with a validator registration number, which LEEQUID can use to operate validators and collect rewards. \
+\
+In a matter of minutes the deposit transaction will move from the pending transactions list (called the _mempool_) into a newly minted block.&#x20;
 
 ### State 1: Deposited - waiting follow distance
 
-Once the deposit transaction reaches the deposit contract and is verified, a new validator is officially born, but not yet active. The deposit is recognized by the consensus layer but does not yet have a validator index associated to it. It will wait for \~8 hours (2048 epochs) as a strict safety measure to prevent an eventual blockchain reorganization from affecting the process. This wait period is called the `ETH1_FOLLOW_DISTANCE.`
+Once the deposit transaction reaches the deposit contract and is verified in a block, a new validator is officially born, but not yet active. The deposit is recognized by the consensus layer but does not yet have a validator index associated to it. It will wait for \~8 hours (2048 epochs) as a strict safety measure to prevent an eventual blockchain reorganization from affecting the process. This wait period is called the `ETH1_FOLLOW_DISTANCE.`
 
 Another \~6.8 hours will pass in the deposited state. This second waiting period in the deposit state is named `EPOCHS_PER_ETH1_VOTING_PERIOD`.&#x20;
 
