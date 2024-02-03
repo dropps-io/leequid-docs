@@ -6,7 +6,7 @@
 
 ## Can I bypass the queues?
 
-Before delving into the rationale behind the protocol's queues, let's explore an existing alternative: [the liquidity pool.](../../leequid-in-depth/the-liquidity-pool-dex/) This is a component of the LEEQUID protocol designed to facilitate instant conversions between sLYX and LYX, enabling immediate staking and unstaking.&#x20;
+Before delving into the rationale behind the protocol's queues, let's explore an existing alternative: [the liquidity pool.](../swapping/slyx-for-lyx-an-instant-alternative-to-exiting.md) This is a component of the LEEQUID protocol designed to facilitate instant conversions between sLYX and LYX, enabling immediate staking and unstaking.&#x20;
 
 Acquiring sLYX through the liquidity pool yields the same result as staking through the staking pool: a deposit of sLYX into the user's wallet, generating rewards overtime. However, this swap operation incurs a small fixed fee of 0.3% along with a slight loss of capital known as "slippage", which increases proportionally with the amount swapped.&#x20;
 
