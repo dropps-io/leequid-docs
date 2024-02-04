@@ -6,4 +6,6 @@ In the LEEQUID protocol, **rewards are updated every 12 hours**. For this reason
 The 10% protocol fee from LEEQUID is deduced from the rewards accrued every 12 hours. When a user withdraws or unstakes, no fee is applied.
 {% endhint %}
 
-The rewards displayed in the _reward balance_ section of the dashboard are sitting non-custodially on the LEEQUID protocol’s [Rewards contract](../../leequid-in-depth/smart-contracts/rewards.md). They are not generating further rewards, or, in other words, they don't auto-compound. For compounding, a user will need to press the “Stake Rewards” button and sign the transaction. This will reintroduce the rewards in the staking pool as a new stake request and, as such, it might be delayed by [staking queues](../staking/potential-wait-times-while-staking.md).
+The rewards displayed in the "Rewards" tab of the web app dashboard are held non-custodially on the LEEQUID protocol’s [Rewards contract](../../leequid-in-depth/smart-contracts/rewards.md). They do not generate further rewards. To enable this, users can toggle the **auto-compound** feature, and the protocol will automatically re-stake the rewards for the user on a daily basis.&#x20;
+
+Manual compounding is also an option in the "Rewards" tab of the LEEQUID web app, providing users with control over whether he wants to withdraw or re-stake their rewards. This action will reintroduce the rewards into the staking pool as a new stake request and, consequently, it might be delayed by [staking queues](../staking/potential-wait-times-while-staking.md).

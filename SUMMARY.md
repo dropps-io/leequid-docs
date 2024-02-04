@@ -12,6 +12,7 @@
   * [Importing sLYX to your wallet](navigating-leequid/staking/importing-slyx-to-your-wallet.md)
 * [🍇 Collecting rewards](navigating-leequid/collecting-rewards/README.md)
   * [Reward distribution in the LEEQUID protocol](navigating-leequid/collecting-rewards/reward-distribution-in-the-leequid-protocol.md)
+  * [Auto-compounding](navigating-leequid/collecting-rewards/auto-compounding.md)
   * [Withdrawing rewards](navigating-leequid/collecting-rewards/withdrawing-rewards.md)
   * [Reward calculation in Proof of Stake](navigating-leequid/collecting-rewards/reward-calculation-in-proof-of-stake.md)
 * [🍂 Exiting the protocol](navigating-leequid/exiting-the-protocol/README.md)
