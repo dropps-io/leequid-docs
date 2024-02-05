@@ -1,6 +1,6 @@
 # 👋 Welcome
 
-In the pages of this Docs you will find details on the inner workings of the LEEQUID protocol, along with fundamental concepts related to liquid staking.&#x20;
+In the pages of these docs you will find details on the inner workings of the LEEQUID protocol, along with fundamental concepts related to liquid staking.&#x20;
 
 [Status page](https://status.leequid.info/): check if everything is online. [🚥](https://emojipedia.org/horizontal-traffic-light)
 
