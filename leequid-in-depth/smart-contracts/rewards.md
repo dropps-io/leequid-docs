@@ -41,3 +41,11 @@ An oracle system is in place that updates the total rewards in the Rewards contr
 
 The contract provides an option to disable rewards for an account. The state is toggled by calling the `setRewardsDisabled` function. Rewards of addresses with rewards disabled accrue in the distributor principal, the balance of the [Merkle Distributor contract](merkle-distributor.md), responsible for the token distribution of rewards calculated off-chain.
 
+#### **Auto-compounding**
+
+The contract stores a list of addresses who explicitly granted permission for rewards to be staked on their behalf and provides an interface to effectively re-stake these rewards. This operation can be done in batch and it will call the Pool contract's, transferring LYX to it.
+
+
+
+
+
