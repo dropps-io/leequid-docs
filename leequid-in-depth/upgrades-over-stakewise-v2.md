@@ -1,4 +1,4 @@
-# Upgrades over Stakewise V2
+# 🆙 Upgrades over Stakewise V2
 
 &#x20;Progress over Stakewise V2 includes:
 
@@ -7,3 +7,4 @@
 * A stake/unstake buffer to match incoming deposits with outgoing withdrawals. This buffer can transform waiting periods of days into minutes.&#x20;
 * Adjustment to the LSP7 token standard, making LEEQUID the first LUKSO native DeFi protocol.
 * Update of solidity code to the newest version, benefiting from increased security and efficiency.&#x20;
+* Support for Universal Profiles.
