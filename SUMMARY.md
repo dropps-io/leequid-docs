@@ -51,7 +51,6 @@
   * [Potential unpeg of sLYX from LYX](leequid-in-depth/the-slyx-token/potential-unpeg-of-slyx-from-lyx.md)
 * [💦 The liquidity pool (DEX)](leequid-in-depth/the-liquidity-pool-dex/README.md)
   * [Implementation](leequid-in-depth/the-liquidity-pool-dex/implementation.md)
-* [🆙 Upgrades over Stakewise V2](leequid-in-depth/upgrades-over-stakewise-v2.md)
 
 ## Incident Response
 
